@@ -42,6 +42,27 @@ It is possible that you need to do this action for some reason as it happened to
 ## Running the code
 
 We could have something like this:
-![img_1](https://user-images.githubusercontent.com/107102754/174441852-fe7f9abb-f0d5-41e3-a0b6-ecfe90b4d85a.jpg)
+
+Two folders, one with the original files and another empty where the new files will be saved.
+<br></br>
+![img_hojas(1)](https://user-images.githubusercontent.com/107102754/174443815-841939b1-c662-4367-a662-2b34234f5a4b.jpg)
+![img_hojas_2d_1(1)](https://user-images.githubusercontent.com/107102754/174443822-8c698108-5188-472d-9e52-43888b58288d.jpg)
+
+This is a test file where the program will run. As we can see there are elements with a certain elevation.
+:---:
+![img_1(1)](https://user-images.githubusercontent.com/107102754/174443941-ddf32059-d382-4030-842a-f4b188214891.jpg)
+![img_2](https://user-images.githubusercontent.com/107102754/174444134-b4463c2e-2e26-49a6-a610-5a1a85887a45.jpg)
+
+After running the program we will get the following:
+
+The new files already modified will appear in the empty folder
+:---:
+![img_hojas_2d_2(1)](https://user-images.githubusercontent.com/107102754/174444043-557223d5-6cdf-4e97-8cab-8a757a9f405a.jpg)
+
+This is what the file would look like. All elements at dimension 0:
+:---:
+![img_3](https://user-images.githubusercontent.com/107102754/174444084-4cfbba45-1215-4a92-a577-e60df398bbd8.jpg)
+
+The most interesting thing is being able to do this process automatically for all the files.
 
 
