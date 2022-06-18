@@ -1,0 +1,12 @@
+(SETQ Conjunto (SSGET "x"))
+(COMMAND "_.move" Conjunto "" "0,0,1e99" "")
+(COMMAND "_.move" Conjunto "" "0,0,-1e99" "")
+(SETQ name (strcat "C:\\Users\\... INSERT PATH TO SAVE NEW FILE" "2D_" (getvar "DWGNAME")));Change path
+(command "_.SAVE" name)
+(SETQ lista (vl-directory-files (getvar "dwgprefix") "*.dwg" 1))
+(SETQ cont 0)
+(WHILE (/= (nth cont lista) (getvar "DWGNAME"))
+(setq cont (+ cont 1)) )
+(setq cont (+ cont 1))
+(SETQ arch (nth cont lista))
+(command "_.FILEOPEN" arch)
