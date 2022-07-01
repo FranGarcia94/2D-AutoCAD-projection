@@ -1,4 +1,6 @@
 # 2D-AutoCAD-projection-with-AutoLISP
+![AutoCAD_version](https://img.shields.io/badge/version-S.51.0.0%20AutoCAD%202022-brightgreen)
+<br></br>
 Go from an AutoCAD sheet with entities with a z-value other of 0 to a two-dimensional projection by placing those elements on the z-axis value 0.
 
 It is possible that you need to do this action for some reason as it happened to me. In my case, the number of sheets in which I had to perform this action was very large (around 600), so I decided to create this code to automate the process.
